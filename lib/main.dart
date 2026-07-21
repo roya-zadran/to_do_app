@@ -17,8 +17,10 @@ class MyApp extends StatelessWidget {
         ),
         body: ListView(
           children: [
-            Container(color: Colors.deepOrange, width: 200, height: 200,),
-            Container(color: Colors.orangeAccent, width: 200, height: 200,),
+            Container(color: Colors.deepOrange, width: 200, height: 300,
+            child:  Container(color: Colors.black, width: 100, height: 19,
+            ),),
+
             Container(color: Colors.orange,width: 200, height: 200,),
             Container(color: Colors.deepOrange, width: 200, height: 200,),
             Container(color: Colors.orangeAccent, width: 200, height: 200,),
